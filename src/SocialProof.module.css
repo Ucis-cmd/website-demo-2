@@ -1,0 +1,23 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container h1 {
+  width: 50%;
+  text-align: left;
+}
+.proofs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1400px) {
+  .container h1 {
+    width: 100%;
+    text-align: left;
+  }
+  .proofs {
+    flex-direction: column;
+  }
+}

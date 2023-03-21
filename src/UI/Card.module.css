@@ -1,0 +1,21 @@
+.card {
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  min-width: 279px;
+  max-width: 500px;
+  margin: 2rem;
+  padding: 2rem;
+}
+.card h3 {
+  font-size: 1.3rem;
+}
+.card p {
+  font-size: 1rem;
+  line-height: 2.9rem;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    border-radius: 0;
+  }
+}
